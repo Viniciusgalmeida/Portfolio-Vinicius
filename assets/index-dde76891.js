@@ -120,7 +120,8 @@ Error generating stack: `+s.message+`
   margin-top: 20px;
 `,sm=Oe.div`
 /* background-color: red; */
-height: calc(100vh - ${rl}px);
+height: calc(100vh - ${rl}px - 30px); 
+
 display: flex;
 flex-direction: column;
 justify-content: center;
